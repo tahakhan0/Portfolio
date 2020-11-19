@@ -15,7 +15,7 @@ project1.title = "Contacts/Address Book App";
 project1.content =
   "An app to manage all your contacts. Supports multiple emails, phone numbers, addresses, and social media profiles.";
 project1.stack = [
-  "React",
+  "Reactjs",
   "Django",
   "DRF",
   "Rest APIs",
@@ -40,7 +40,7 @@ project2.title = "Covid Travel Assistant";
 project2.content =
   "An app to deliver the latest news and guidelines of top-10 countries that are affected by Covid-19. Information is obtained only from credible government resources and written into an CSV format, and then manually checked for further corrections.";
 project2.stack = [
-  "React",
+  "Reactjs",
   "Django",
   "DRF",
   "Rest APIs",
@@ -66,7 +66,7 @@ project3.title = "MovieFlix";
 project3.content =
   "A movie library app that can be used by DVD rental businesses to operate their business.";
 project3.stack = [
-  "React",
+  "Reactjs",
   "Django",
   "DRF",
   "Rest APIs",
@@ -109,9 +109,11 @@ const project4 = addData();
 project4.id = 4;
 project4.title = "This Portfolio";
 project4.content =
-  "My way of contributing to fellow developers that want to build their portfolio in the easiest way.";
+  "My way of giving back to fellow developers that want to build their portfolio in the easiest way.";
 project4.stack = ["Reactjs", "HTML", "CSS"];
-project4.links = [];
+project4.links = {
+  Frontend: "https://github.com/tahakhan0/Portfolio",
+};
 project4.postedDate = "11/19/2020";
 
 function getAllData(...allfunctions) {

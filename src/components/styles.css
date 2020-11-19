@@ -1,6 +1,7 @@
 html,
 body {
   width: 100%;
+  font-size: 18px;
 }
 
 /* Projects start */
@@ -56,7 +57,7 @@ i {
 
 /* Footer start */
 .footerStyle {
-  padding-top: 10rem;
+  padding-top: 8rem;
   font-size: 16px;
   padding-bottom: 3rem;
 }
@@ -106,5 +107,9 @@ p {
 }
 .workingOnUlStyle {
   font-size: 22px;
+}
+.workingOnDivStyle {
+  font-size: 18px;
+  padding: 4rem 0 1rem 0;
 }
 /* Tiles end */

@@ -6,7 +6,7 @@ export const Tiles = ({ cardData }) => {
   const { id, title, content, stack, links, postedDate } = cardData;
   return (
     <div className="card mt-4">
-      <div className="card-header card-title titleStyle bg-transparent">
+      <div className="card-header card-title titleStyle bg-warning">
         {title}
       </div>
       <div className="card-body">
