@@ -4,13 +4,6 @@ import img2 from "./2.gif";
 import img3 from "./3.gif";
 import img4 from "./4.gif";
 
-const styleForImages = {
-  height: "28rem",
-  width: "80%",
-  //   border: "1px solid #DFDFDF",
-  //   borderRadius: "10px",
-};
-
 export const image1 = <img src={img1} alt="img1" />;
 export const image2 = <img src={img2} alt="img2" />;
 export const image3 = <img src={img3} alt="img3" />;
