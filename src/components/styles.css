@@ -1,0 +1,110 @@
+html,
+body {
+  width: 100%;
+}
+
+/* Projects start */
+.projectsStyle {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.projectsHeading {
+  font-size: 60px;
+  font-weight: 800;
+}
+/* Projects end */
+
+/* About start */
+.aboutStyle {
+  padding-top: 80px;
+}
+.aboutStyleHeading {
+  font-size: 90px;
+  font-weight: 800;
+}
+.aboutStyleContent {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.aboutStyleContent ul li {
+  padding-bottom: 5px;
+  font-size: 22px;
+}
+.connectIcons {
+  margin-top: 30px;
+}
+/* About end */
+
+/* Navbar start */
+.navbarStyle {
+  padding: 20px;
+}
+.navbarStyle ul li a {
+  font-size: 22px;
+  color: black;
+  font-weight: 700;
+}
+/* Navbar end */
+
+/* Icon color */
+i {
+  color: black;
+  padding-right: 20px;
+}
+
+/* Footer start */
+.footerStyle {
+  padding-top: 10rem;
+  font-size: 16px;
+  padding-bottom: 3rem;
+}
+/* Footer end */
+
+/* Tiles start */
+.card {
+  border-radius: 10px !important;
+}
+.titleStyle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.contentStyle {
+  font-size: 18px;
+  padding: 10px 100px 20px;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .contentStyle {
+    padding: 0;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+    zoom: 300%;
+    padding: 0 !important;
+  }
+}
+.imageContainer {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+img {
+  /* height: 40%;
+  width: 100%; */
+  height: 30%;
+  width: 90%;
+  padding-top: 10px;
+  margin-bottom: 3rem;
+}
+p {
+  font-size: 22px;
+}
+.workingOnUlStyle {
+  font-size: 22px;
+}
+/* Tiles end */
