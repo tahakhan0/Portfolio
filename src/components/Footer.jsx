@@ -11,6 +11,8 @@ export const Footer = () => {
           </div>
           <div className="col-12 d-flex justify-content-center">
             It is built using Reactjs and Bootstrap.
+          </div>
+          <div className="col-12 d-flex justify-content-center">
             <a
               href="https://github.com/tahakhan0/Portfolio"
               target="_blank"
